@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+/* @import './app/vendor/semantic.min.css'; */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -8em;
+}
+.footer,
+.push {
+  height: 8em;
+}
+
+.footer {
+  background: #673ab7;
+  color: #ffffff; 
+  padding: 1em;
+}
+
+.maincontainer {
+  padding: 1em;
+}
+
+.toolbar-spacer {
+  width: 8em;
+}
+
+/*
+input.ng-invalid.ng-dirty  {
+  border-color: #912D2B !important; 
+} 
+
+*/

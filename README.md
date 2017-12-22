@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.
 
+## Install additional components
+
+As prerequisite get the recent version of npm running
+
+Install Angular Material and Angular CDK first. Run `npm install --save @angular/material @angular/cdk`
+
+Install Animations to allow Material component animations. Run `npm install --save @angular/animations`
+
+For the tooltip feature that might occure in the future install hammerjs. Run `npm install --save hammerjs`
+
+It runs with firebase in the Version 4.8.0, not the recent 4.8.1! Run `npm install firebase@4.8.0`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
